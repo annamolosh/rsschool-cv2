@@ -19,25 +19,24 @@ body {
 }
 
 nav {
-  margin-bottom: 45px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: -20px;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
 }
 
-.menu-name {
-  margin-right: 52px;
-}
-
-.nav-link{
+.nav-link {
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 8px;
+  font-size: 12px;
   color: #1A1A1A; 
   text-transform: uppercase;
+  padding: 10px 20px;
+  margin-right: 30px;
 }
 
 a:active,
@@ -83,7 +82,7 @@ header {
 
   margin-left: -100px;
   margin-top: -30px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 
   padding-left: 100px;
 
@@ -238,8 +237,8 @@ ul {
 }
 
 .logo {
-  width: 45px; 
-  height: 45px;
+  width: 40px; 
+  height: 40px;
 }
 
 footer {
@@ -251,8 +250,9 @@ footer {
 }
 
 .footer-icon {
-  width: 40px;
-  height: 40px;
   font-size: 40px;
-  margin-right: 12px;
+}
+
+.year {
+  line-height: 32px;
 }
